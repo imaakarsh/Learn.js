@@ -7,3 +7,4 @@ const grouped = orders.reduce(
 //     {spicy:[],mild:[]},
 // );
 // orders.reduce(grouped)
+)
