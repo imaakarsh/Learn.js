@@ -11,3 +11,10 @@ const entries = Object.entries(artifact)
 console.log(keys);
 console.log(values);
 console.log(entries)
+
+const sealed = Object.seal(artifact)
+console.log(sealed)
+
+const serure = {name:"ruby"}
+
+Object.defineProperties(serure,)
