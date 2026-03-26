@@ -33,3 +33,11 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+
+// +++++++++++++++++++++++++++++++++
+
+let myYoutubename = "Aakarsh"
+
+let anothername = myYoutubename
+console.log(anothername);
