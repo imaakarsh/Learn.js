@@ -1,0 +1,267 @@
+# 📚 JavaScript Fundamentals Playground  
+
+![GitHub repo size](https://img.shields.io/github/repo-size/imaakarsh/Js) ![License](https://img.shields.io/github/license/imaakarsh/Js) ![Node.js version](https://img.shields.io/badge/node-%3E%3D14-brightgreen) ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
+**Live Demo**: — | **Issues**: [GitHub Issues](https://github.com/imaakarsh/Js/issues) | **Pull Requests**: [GitHub PRs](https://github.com/imaakarsh/Js/pulls)
+
+---
+
+## Overview  
+
+`Js` is a curated collection of bite‑size JavaScript snippets that illustrate core language concepts—from variables and data types to advanced topics like prototypes, classes, and symbols. It is designed for:
+
+* **Beginners** who want to see each concept in isolation.  
+* **Instructors** looking for ready‑made examples for workshops or cohort sessions.  
+* **Anyone** who needs a quick reference while learning or teaching JavaScript.
+
+All examples are runnable with Node.js (no external dependencies) and are organized into logical folders for easy navigation.
+
+---
+
+## Features  
+
+| Category | Files | Description | Status |
+|----------|-------|-------------|--------|
+| **Basics** | `01_basic/test.js` | Simple console output demo. | ✅ Stable |
+| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js` | Declaration, scope, primitive vs reference types. | ✅ Stable |
+| **Conversions & Operations** | `03_ConversionOperation.js` | Implicit/explicit type conversion, arithmetic operators. | ✅ Stable |
+| **Comparisons** | `04_Comprision.js` | Equality (`==`, `===`) and relational operators. | ✅ Stable |
+| **Strings** | `05_Strings.js` | Template literals, string methods, Unicode handling. | ✅ Stable |
+| **Numbers & Math** | `06_NumbsAndMaths.js` | `Number` object, locale formatting, numeric utilities. | ✅ Stable |
+| **Conditional Logic** | `Cohort/06-conditional.js` | `if/else`, ternary, switch statements. | ✅ Stable |
+| **Arrays & Methods** | `Cohort/07-array.js`, `08-array-methods.js` | Creation, iteration, higher‑order methods (`map`, `filter`, …). | ✅ Stable |
+| **Objects & Prototypes** | `09-objects.js`, `10-Object-Methods.js`, `14-prototype.js` | Literal objects, method definitions, prototype chain. | ✅ Stable |
+| **`this` & Call/Apply/Bind** | `11-this.js`, `12-call-bind-apply.js` | Context binding patterns. | ✅ Stable |
+| **Classes & Inheritance** | `15-Classes.js` | ES6 class syntax, constructors, inheritance. | ✅ Stable |
+| **Symbols** | `16-symbol.js` | Unique identifiers, well‑known symbols. | ✅ Stable |
+| **Cohort Index** | `Cohort/index.js` | Small demo of variable declarations. | ✅ Stable |
+
+---
+
+## Tech Stack  
+
+| Layer | Technology | Reason |
+|-------|------------|--------|
+| **Runtime** | **Node.js** (v14+) | Executes all examples without a browser. |
+| **Language** | **JavaScript (ES2022)** | Modern syntax (let/const, arrow functions, classes). |
+| **Package Manager** | **npm** (optional) | For installing development tools (e.g., ESLint). |
+| **Container (optional)** | **DevContainer** (`.devcontainer/devcontainer.json`) | Provides a ready‑to‑code VS Code environment. |
+
+---
+
+## Architecture  
+
+```
+Js/
+├─ .devcontainer/          # VS Code DevContainer definition
+├─ .github/                # GitHub config (Dependabot)
+├─ 01_basic/               # Very first “Hello World” style script
+├─ BackToBasic.js/         # Core fundamentals (variables → maths)
+│   ├─ 01_Varialble.js
+│   ├─ 02_datatypes.js
+│   ├─ 03_ConversionOperation.js
+│   ├─ 04_Comprision.js
+│   ├─ 05_Strings.js
+│   ├─ 06_NumbsAndMaths.js
+│   ├─ datatypes_symry.js
+│   └─ hello.js
+└─ Cohort/                 # Structured lesson files used in a cohort setting
+    ├─ 01-console.js
+    ├─ 02-variables.js
+    ├─ … (01‑16)
+    ├─ README.md           # Cohort‑specific readme
+    ├─ index.js
+    └─ tempCodeRunnerFile.js
+```
+
+*Each file is a self‑contained example that can be executed with `node <path>`.*
+
+---
+
+## Getting Started  
+
+### Prerequisites  
+
+| Tool | Minimum Version |
+|------|-----------------|
+| **Git** | 2.20+ |
+| **Node.js** | 14.x (LTS) |
+| **npm** (bundled with Node) | 6.x+ |
+| **VS Code** (optional) | 1.70+ (for DevContainer) |
+
+### Installation  
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/imaakarsh/Js.git
+cd Js
+
+# 2️⃣ (Optional) Install dev dependencies for linting / testing
+npm install
+```
+
+### Verify the Setup  
+
+```bash
+node -v   # should print v14.x or newer
+npm -v    # should print a version >=6
+```
+
+---
+
+## Usage  
+
+### Running a single example  
+
+```bash
+# Example: Numbers & Math utilities
+node BackToBasic.js/06_NumbsAndMaths.js
+```
+
+**Expected output**
+
+```
+400
+[Number: 100]
+3
+10,000
+```
+
+### Quick reference for the most popular snippets  
+
+| Command | What you’ll see |
+|---------|-----------------|
+| `node 01_basic/test.js` | Simple `console.log('Hello World')` |
+| `node BackToBasic.js/05_Strings.js` | String concatenation, template literals, length, etc. |
+| `node Cohort/15-Classes.js` | Class definition, inheritance, method overriding |
+| `node Cohort/12-call-bind-apply.js` | Demonstrates `call`, `apply`, `bind` usage |
+
+### Running all examples automatically (optional)  
+
+```bash
+# Bash loop – prints a header before each file
+for f in $(git ls-files '*.js' | grep -v 'node_modules'); do
+  echo "=== $f ==="
+  node "$f"
+  echo
+done
+```
+
+---
+
+## Development  
+
+### Setting up the DevContainer (VS Code)  
+
+1. Open the repository folder in VS Code.  
+2. When prompted, click **Reopen in Container**.  
+3. The container will install Node.js and expose a terminal ready for you.
+
+### Linting & Formatting  
+
+```bash
+npm run lint      # runs ESLint (configured in package.json)
+npm run format    # runs Prettier
+```
+
+*(If `package.json` does not exist yet, you can initialise one with `npm init -y` and add ESLint/Prettier as dev dependencies.)*
+
+### Testing  
+
+The repo currently contains no automated tests, but you can add Jest or Mocha tests for any file:
+
+```bash
+npm install --save-dev jest
+npx jest
+```
+
+### Code Style  
+
+* Use **`const`** for values that never change, **`let`** for re‑assignable variables.  
+* Prefer **arrow functions** for callbacks unless you need a custom `this`.  
+* Follow the **Airbnb JavaScript Style Guide** (or your own team’s guide).  
+
+---
+
+## Deployment  
+
+This repository is educational material and does **not** require deployment.  
+If you wish to host the examples on a static site (e.g., GitHub Pages), you can:
+
+1. Convert each `.js` file into an HTML page with a `<script>` tag.  
+2. Push the generated `docs/` folder to the `gh-pages` branch.  
+
+---
+
+## API Documentation  
+
+*Not applicable.* The repository consists of independent scripts, not a reusable library or HTTP service.
+
+---
+
+## Contributing  
+
+We welcome contributions of any kind—new examples, typo fixes, or improved documentation.
+
+1. **Fork** the repository.  
+2. **Create a branch** for your change: `git checkout -b feature/awesome-example`.  
+3. **Add / modify** files. Keep the same folder organization (e.g., new topic → new file in `BackToBasic.js/` or `Cohort/`).  
+4. **Run the linter** (`npm run lint`) and ensure the script runs without errors.  
+5. **Commit** with a clear message: `git commit -m "Add example for Set & WeakSet"`  
+6. **Push** to your fork and open a **Pull Request** against `main`.  
+
+### Pull‑Request Checklist  
+
+- [ ] Code follows the project's style guide.  
+- [ ] Example runs successfully (`node <file>`).  
+- [ ] README (or relevant section) updated if a new topic is added.  
+- [ ] No sensitive information (API keys, passwords) is committed.  
+
+---
+
+## Troubleshooting  
+
+| Problem | Solution |
+|---------|----------|
+| `node: command not found` | Install Node.js from https://nodejs.org and ensure it’s on your `PATH`. |
+| Script prints `undefined` or throws `ReferenceError` | Verify you’re using the correct file path and that the file contains valid JavaScript. |
+| VS Code DevContainer fails to start | Make sure Docker Desktop is running and that you have at least 2 GB of RAM allocated to Docker. |
+| Linter errors about `no‑undef` | Ensure you declared variables with `let`/`const` before using them. |
+
+**FAQ**
+
+*Q*: *Do I need a package manager?*  
+*A*: Only if you want to use the optional linting/formatting tools. The core examples run with plain Node.js.
+
+*Q*: *Can I run these examples in a browser?*  
+*A*: Yes, but you’ll need to wrap them in `<script>` tags or use a bundler like Webpack/Vite.
+
+---
+
+## Roadmap  
+
+| Milestone | Target Date | Description |
+|-----------|-------------|-------------|
+| **v1.1** | Q3 2026 | Add a `package.json` with scripts (`lint`, `format`, `test`). |
+| **v1.2** | Q4 2026 | Introduce a small interactive web UI to browse examples. |
+| **v2.0** | 2027 | Convert the collection into an npm package (`js‑playground`) with exported utility functions. |
+| **Community** | Ongoing | Accept community‑submitted examples for newer ECMAScript features (e.g., `async/await`, `Proxy`). |
+
+---
+
+## License & Credits  
+
+**License**: MIT © 2026 [Akarsh Kumar](https://github.com/imaakarsh)  
+
+### Contributors  
+
+| Name | GitHub |
+|------|--------|
+| Akarsh Kumar | [imaakarsh](https://github.com/imaakarsh) |
+
+### Acknowledgments  
+
+* Inspired by the classic “JavaScript for Beginners” tutorials.  
+* Thanks to the open‑source community for tools like **Node.js**, **ESLint**, and **Prettier**.  
+
+---
