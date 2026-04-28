@@ -1,3 +1,4 @@
+
 # 📚 JavaScript Fundamentals Playground  
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/imaakarsh/Js) ![License](https://img.shields.io/github/license/imaakarsh/Js) ![Node.js version](https://img.shields.io/badge/node-%3E%3D14-brightgreen) ![Version](https://img.shields.io/badge/version-1.0.0-blue)
@@ -6,7 +7,7 @@
 
 ---
 
-## Overview  
+## 📝 Overview  
 
 `Js` is a curated collection of bite‑size JavaScript snippets that illustrate core language concepts—from variables and data types to advanced topics like prototypes, classes, and symbols. It is designed for:
 
@@ -14,30 +15,28 @@
 * **Instructors** looking for ready‑made examples for workshops or cohort sessions.  
 * **Anyone** who needs a quick reference while learning or teaching JavaScript.
 
-All examples are runnable with Node.js (no external dependencies) and are organized into logical folders for easy navigation.
+All examples are runnable with Node.js (no external dependencies) and are organized into logical folders like `BackToBasic.js` and `Cohort` for easy navigation.
 
 ---
-
-## Features  
+## ✨ Features  
 
 | Category | Files | Description | Status |
 |----------|-------|-------------|--------|
-| **Basics** | `01_basic/test.js` | Simple console output demo. | ✅ Stable |
-| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js` | Declaration, scope, primitive vs reference types. | ✅ Stable |
-| **Conversions & Operations** | `03_ConversionOperation.js` | Implicit/explicit type conversion, arithmetic operators. | ✅ Stable |
-| **Comparisons** | `04_Comprision.js` | Equality (`==`, `===`) and relational operators. | ✅ Stable |
-| **Strings** | `05_Strings.js` | Template literals, string methods, Unicode handling. | ✅ Stable |
-| **Numbers & Math** | `06_NumbsAndMaths.js` | `Number` object, locale formatting, numeric utilities. | ✅ Stable |
-| **Conditional Logic** | `Cohort/06-conditional.js` | `if/else`, ternary, switch statements. | ✅ Stable |
-| **Arrays & Methods** | `Cohort/07-array.js`, `08-array-methods.js` | Creation, iteration, higher‑order methods (`map`, `filter`, …). | ✅ Stable |
-| **Objects & Prototypes** | `09-objects.js`, `10-Object-Methods.js`, `14-prototype.js` | Literal objects, method definitions, prototype chain. | ✅ Stable |
-| **`this` & Call/Apply/Bind** | `11-this.js`, `12-call-bind-apply.js` | Context binding patterns. | ✅ Stable |
-| **Classes & Inheritance** | `15-Classes.js` | ES6 class syntax, constructors, inheritance. | ✅ Stable |
-| **Symbols** | `16-symbol.js` | Unique identifiers, well‑known symbols. | ✅ Stable |
+| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js` | Simple console output and environment tests. | ✅ Stable |
+| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js` | Declaration, scope, and primitive vs reference types. | ✅ Stable |
+| **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js` | Implicit/explicit type conversion and arithmetic operators. | ✅ Stable |
+| **Comparisons** | `BackToBasic.js/04_Comprision.js` | Equality (`==`, `===`) and relational operators. | ✅ Stable |
+| **Strings** | `BackToBasic.js/05_Strings.js`, `Cohort/05-Strings.js` | Template literals, string methods, and Unicode handling. | ✅ Stable |
+| **Numbers & Math** | `BackToBasic.js/06_NumbsAndMaths.js`, `Cohort/04-number.js` | `Number` object, locale formatting, and numeric utilities. | ✅ Stable |
+| **Dates & Time** | `BackToBasic.js/07_Dates.js` | Date object manipulation and formatting. | ✅ Stable |
+| **Arrays & Methods** | `BackToBasic.js/08_Array.js`, `Cohort/07-array.js`, `08-array-methods.js` | Creation, iteration, and higher‑order methods. | ✅ Stable |
+| **Objects & Prototypes** | `Cohort/09-objects.js`, `10-Object-Methods.js`, `14-prototype.js` | Literal objects, method definitions, and prototype chain. | ✅ Stable |
+| **`this` & Context** | `Cohort/11-this.js`, `12-call-bind-apply.js` | Context binding patterns and function methods. | ✅ Stable |
+| **Classes & Inheritance** | `Cohort/15-Classes.js` | ES6 class syntax, constructors, and inheritance. | ✅ Stable |
+| **Symbols** | `Cohort/16-symbol.js` | Unique identifiers and well‑known symbols. | ✅ Stable |
 | **Cohort Index** | `Cohort/index.js` | Small demo of variable declarations. | ✅ Stable |
 
 ---
-
 ## Tech Stack  
 
 | Layer | Technology | Reason |
@@ -109,11 +108,45 @@ npm -v    # should print a version >=6
 
 ---
 
-## Usage  
+## 🚀 Usage  
 
 ### Running a single example  
 
-```bash
+bash
+# Example: Numbers & Math utilities
+node BackToBasic.js/06_NumbsAndMaths.js
+
+
+**Expected output**
+
+
+400
+[Number: 100]
+3
+10,000
+
+
+### Quick reference for the most popular snippets  
+
+| Command | What you’ll see |
+|---------|-----------------|
+| `node JavaScript/test.js` | Simple `console.log` test script |
+| `node BackToBasic.js/05_Strings.js` | String concatenation, template literals, and methods |
+| `node Cohort/15-Classes.js` | Class definition, inheritance, and method overriding |
+| `node Cohort/12-call-bind-apply.js` | Demonstrates `call`, `apply`, and `bind` usage |
+
+### Running all examples automatically (optional)  
+
+bash
+# Bash loop – prints a header before each file
+for f in $(git ls-files '*.js' | grep -v 'node_modules'); do
+  echo "=== $f ==="
+  node "$f"
+  echo
+done
+
+
+---
 # Example: Numbers & Math utilities
 node BackToBasic.js/06_NumbsAndMaths.js
 ```
