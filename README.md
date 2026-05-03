@@ -6,7 +6,6 @@
 **Live Demo**: — | **Issues**: [GitHub Issues](https://github.com/imaakarsh/Js/issues) | **Pull Requests**: [GitHub PRs](https://github.com/imaakarsh/Js/pulls)
 
 ---
-
 ## 📝 Overview  
 
 `Js` is a curated collection of bite‑size JavaScript snippets that illustrate core language concepts—from variables and data types to advanced topics like prototypes, classes, and symbols. It is designed for:
@@ -22,9 +21,9 @@ All examples are runnable with Node.js (no external dependencies) and are organi
 
 | Category | Files | Description | Status |
 |----------|-------|-------------|--------|
-| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js` | Simple console output and environment tests. | ✅ Stable |
-| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js` | Declaration, scope, and primitive vs reference types. | ✅ Stable |
-| **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js` | Implicit/explicit type conversion and arithmetic operators. | ✅ Stable |
+| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js`, `Cohort/01-console.js` | Simple console output, environment tests, and basic loops. | ✅ Stable |
+| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js`, `datatypes_symry.js`, `JavaScript/01_Variables.js`, `02_DataTypes.js` | Declaration, scope, strict mode, and primitive vs reference types. | ✅ Stable |
+| **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js` | Arithmetic operators, negative values, and type conversion logic. | ✅ Stable |
 | **Comparisons** | `BackToBasic.js/04_Comprision.js` | Equality (`==`, `===`) and relational operators. | ✅ Stable |
 | **Strings** | `BackToBasic.js/05_Strings.js`, `Cohort/05-Strings.js` | Template literals, string methods, and Unicode handling. | ✅ Stable |
 | **Numbers & Math** | `BackToBasic.js/06_NumbsAndMaths.js`, `Cohort/04-number.js` | `Number` object, locale formatting, and numeric utilities. | ✅ Stable |
@@ -115,38 +114,39 @@ npm -v    # should print a version >=6
 bash
 # Example: Numbers & Math utilities
 node BackToBasic.js/06_NumbsAndMaths.js
-
+```
 
 **Expected output**
 
-
+```
 400
 [Number: 100]
 3
 10,000
-
+```
 
 ### Quick reference for the most popular snippets  
 
 | Command | What you’ll see |
 |---------|-----------------|
-| `node JavaScript/test.js` | Simple `console.log` test script |
-| `node BackToBasic.js/05_Strings.js` | String concatenation, template literals, and methods |
-| `node Cohort/15-Classes.js` | Class definition, inheritance, and method overriding |
-| `node Cohort/12-call-bind-apply.js` | Demonstrates `call`, `apply`, and `bind` usage |
+| `node 01_basic/test.js` | Simple `console.log('Hello World')` |
+| `node BackToBasic.js/05_Strings.js` | String concatenation, template literals, length, etc. |
+| `node Cohort/15-Classes.js` | Class definition, inheritance, method overriding |
+| `node Cohort/12-call-bind-apply.js` | Demonstrates `call`, `apply`, `bind` usage |
 
 ### Running all examples automatically (optional)  
 
-bash
+```bash
 # Bash loop – prints a header before each file
 for f in $(git ls-files '*.js' | grep -v 'node_modules'); do
   echo "=== $f ==="
   node "$f"
   echo
 done
-
+```
 
 ---
+
 # Example: Numbers & Math utilities
 node BackToBasic.js/06_NumbsAndMaths.js
 ```
