@@ -35,3 +35,29 @@ const myfunc = function(){
 
 
 console.log(typeof BigInt);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive)  , heap (non primitive)
+
+let myYoutube = "aakatshh"
+
+let aonotherName = myYoutube
+aonotherName = "chaiii"
+
+console.log(aonotherName);
+console.log(myYoutube);
+
+let user1 = {
+    email : "gamil.com",
+    upi : "chai"
+}
+
+let user2 = user1
+user2.email = "googe.com"
+let usr2 = user1 
+
+console.log(user1.email);
+
+console.log(usr2.email);
