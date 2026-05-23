@@ -14,14 +14,14 @@
 * **Instructors** looking for ready‑made examples for workshops or cohort sessions.  
 * **Anyone** who needs a quick reference while learning or teaching JavaScript.
 
-All examples are runnable with Node.js (no external dependencies) and are organized into logical folders like `BackToBasic.js` and `Cohort` for easy navigation.
+All examples are runnable with Node.js (no external dependencies) and are organized into logical folders like `BackToBasic.js`, `Cohort`, and `Namaste JavaScript` for easy navigation.
 
 ---
 ## ✨ Features  
 
 | Category | Files | Description | Status |
 |----------|-------|-------------|--------|
-| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js`, `Cohort/01-console.js` | Simple console output, environment tests, and basic loops. | ✅ Stable |
+| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js`, `Cohort/01-console.js`, `Namaste JavaScript/index.js` | Simple console output, environment tests, and basic function definitions. | ✅ Stable |
 | **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js`, `datatypes_symry.js`, `JavaScript/01_Variables.js`, `02_DataTypes.js` | Declaration, scope, strict mode, and primitive vs reference types. | ✅ Stable |
 | **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js` | Arithmetic operators, negative values, and type conversion logic. | ✅ Stable |
 | **Comparisons** | `BackToBasic.js/04_Comprision.js` | Equality (`==`, `===`) and relational operators. | ✅ Stable |
@@ -34,6 +34,7 @@ All examples are runnable with Node.js (no external dependencies) and are organi
 | **Classes & Inheritance** | `Cohort/15-Classes.js` | ES6 class syntax, constructors, and inheritance. | ✅ Stable |
 | **Symbols** | `Cohort/16-symbol.js` | Unique identifiers and well‑known symbols. | ✅ Stable |
 | **Cohort Index** | `Cohort/index.js` | Small demo of variable declarations. | ✅ Stable |
+| **Web Integration** | `Namaste JavaScript/index.html` | Basic HTML structure for executing JavaScript in a browser environment. | ✅ Stable |
 
 ---
 ## Tech Stack  
@@ -111,7 +112,23 @@ npm -v    # should print a version >=6
 
 ### Running a single example  
 
+To run a script using Node.js:
+
 bash
+node "Namaste JavaScript/index.js"
+
+
+To view browser-based examples, open the HTML file in your browser:
+
+bash
+# On macOS
+open "Namaste JavaScript/index.html"
+
+# On Windows
+start "Namaste JavaScript/index.html"
+
+
+---
 # Example: Numbers & Math utilities
 node BackToBasic.js/06_NumbsAndMaths.js
 ```
