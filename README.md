@@ -4,8 +4,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/imaakarsh/Js) ![License](https://img.shields.io/github/license/imaakarsh/Js) ![Node.js version](https://img.shields.io/badge/node-%3E%3D14-brightgreen) ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
 **Live Demo**: — | **Issues**: [GitHub Issues](https://github.com/imaakarsh/Js/issues) | **Pull Requests**: [GitHub PRs](https://github.com/imaakarsh/Js/pulls)
-
----
 ## 📝 Overview  
 
 `Js` is a curated collection of bite‑size JavaScript snippets that illustrate core language concepts—from variables and data types to advanced topics like prototypes, classes, and symbols. It is designed for:
@@ -24,19 +22,17 @@ All examples are runnable with Node.js (no external dependencies) and are organi
 | **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js`, `Cohort/01-console.js`, `Namaste JavaScript/index.js` | Simple console output, environment tests, and basic function definitions. | ✅ Stable |
 | **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js`, `datatypes_symry.js`, `JavaScript/01_Variables.js`, `02_DataTypes.js` | Declaration, scope, strict mode, and primitive vs reference types. | ✅ Stable |
 | **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js` | Arithmetic operators, negative values, and type conversion logic. | ✅ Stable |
-| **Comparisons** | `BackToBasic.js/04_Comprision.js` | Equality (`==`, `===`) and relational operators. | ✅ Stable |
+| **Comparisons & Logic** | `BackToBasic.js/04_Comprision.js`, `Cohort/06-conditional.js` | Equality (`==`, `===`), relational operators, and conditional flow control. | ✅ Stable |
 | **Strings** | `BackToBasic.js/05_Strings.js`, `Cohort/05-Strings.js` | Template literals, string methods, and Unicode handling. | ✅ Stable |
 | **Numbers & Math** | `BackToBasic.js/06_NumbsAndMaths.js`, `Cohort/04-number.js` | `Number` object, locale formatting, and numeric utilities. | ✅ Stable |
 | **Dates & Time** | `BackToBasic.js/07_Dates.js` | Date object manipulation and formatting. | ✅ Stable |
 | **Arrays & Methods** | `BackToBasic.js/08_Array.js`, `Cohort/07-array.js`, `08-array-methods.js` | Creation, iteration, and higher‑order methods. | ✅ Stable |
-| **Objects & Prototypes** | `Cohort/09-objects.js`, `10-Object-Methods.js`, `14-prototype.js` | Literal objects, method definitions, and prototype chain. | ✅ Stable |
+| **Objects & Prototypes** | `Cohort/09-objects.js`, `10-Object-Methods.js`, `13-new.js`, `14-prototype.js` | Literal objects, constructors, method definitions, and prototype chain. | ✅ Stable |
 | **`this` & Context** | `Cohort/11-this.js`, `12-call-bind-apply.js` | Context binding patterns and function methods. | ✅ Stable |
 | **Classes & Inheritance** | `Cohort/15-Classes.js` | ES6 class syntax, constructors, and inheritance. | ✅ Stable |
 | **Symbols** | `Cohort/16-symbol.js` | Unique identifiers and well‑known symbols. | ✅ Stable |
 | **Cohort Index** | `Cohort/index.js` | Small demo of variable declarations. | ✅ Stable |
 | **Web Integration** | `Namaste JavaScript/index.html` | Basic HTML structure for executing JavaScript in a browser environment. | ✅ Stable |
-
----
 ## Tech Stack  
 
 | Layer | Technology | Reason |
