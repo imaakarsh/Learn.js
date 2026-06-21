@@ -12,17 +12,17 @@
 * **Instructors** looking for ready‑made examples for workshops or cohort sessions.  
 * **Anyone** who needs a quick reference while learning or teaching JavaScript.
 
-All examples are runnable with Node.js (no external dependencies) and are organized into logical folders like `BackToBasic.js`, `Cohort`, and `Namaste JavaScript` for easy navigation.
+All examples are runnable with Node.js or directly in the browser, and are organized into logical folders like `BackToBasic.js`, `Cohort`, and `JavaScriptEverything` for easy navigation.
 
 ---
 ## ✨ Features  
 
 | Category | Files | Description | Status |
 |----------|-------|-------------|--------|
-| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js`, `Cohort/01-console.js`, `Namaste JavaScript/index.js` | Simple console output, environment tests, and basic function definitions. | ✅ Stable |
-| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js`, `datatypes_symry.js`, `JavaScript/01_Variables.js`, `02_DataTypes.js` | Declaration, scope, strict mode, and primitive vs reference types. | ✅ Stable |
-| **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js` | Arithmetic operators, negative values, and type conversion logic. | ✅ Stable |
-| **Comparisons & Logic** | `BackToBasic.js/04_Comprision.js`, `Cohort/06-conditional.js` | Equality (`==`, `===`), relational operators, and conditional flow control. | ✅ Stable |
+| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js`, `Cohort/01-console.js`, `JavaScriptEverything/script.js` | Simple console output, environment tests, and basic function definitions. | ✅ Stable |
+| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js`, `datatypes_symry.js`, `JavaScript/01_Variables.js`, `02_DataTypes.js`, `JavaScriptEverything/script.js` | Declaration, scope (global, block, functional), strict mode, and primitive vs reference types. | ✅ Stable |
+| **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js`, `JavaScriptEverything/script.js` | Arithmetic operators, negative values, assignment operators, and type conversion logic. | ✅ Stable |
+| **Comparisons & Logic** | `BackToBasic.js/04_Comprision.js`, `Cohort/06-conditional.js`, `JavaScriptEverything/script.js` | Equality (`==`, `===`), relational operators, logical operators (`&&`, `||`, `!`), and conditional flow control. | ✅ Stable |
 | **Strings** | `BackToBasic.js/05_Strings.js`, `Cohort/05-Strings.js` | Template literals, string methods, and Unicode handling. | ✅ Stable |
 | **Numbers & Math** | `BackToBasic.js/06_NumbsAndMaths.js`, `Cohort/04-number.js` | `Number` object, locale formatting, and numeric utilities. | ✅ Stable |
 | **Dates & Time** | `BackToBasic.js/07_Dates.js` | Date object manipulation and formatting. | ✅ Stable |
@@ -32,7 +32,7 @@ All examples are runnable with Node.js (no external dependencies) and are organi
 | **Classes & Inheritance** | `Cohort/15-Classes.js` | ES6 class syntax, constructors, and inheritance. | ✅ Stable |
 | **Symbols** | `Cohort/16-symbol.js` | Unique identifiers and well‑known symbols. | ✅ Stable |
 | **Cohort Index** | `Cohort/index.js` | Small demo of variable declarations. | ✅ Stable |
-| **Web Integration** | `Namaste JavaScript/index.html` | Basic HTML structure for executing JavaScript in a browser environment. | ✅ Stable |
+| **Web Integration** | `JavaScriptEverything/index.html`, `JavaScriptEverything/style.css` | Basic HTML and CSS structure for executing and styling JavaScript in a browser environment. | ✅ Stable |
 ## Tech Stack  
 
 | Layer | Technology | Reason |
