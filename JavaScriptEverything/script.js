@@ -4,9 +4,9 @@
 // var a = 2;
 // let a;
 // let a=23
-var UserName = "Aakarsh"
+// var UserName = "Aakarsh"
 // a = 23;
-console.log(UserName);
+// console.log(UserName);
 // console.log(a);
 
 // declaraton and initialization
@@ -19,8 +19,8 @@ console.log(UserName);
 // app fhirse decelar kr skte ho error nhi aayega
 
 // var e  = 13;
-let f = 13; 
-var e = 23; // possible with var
+// let f = 13; 
+// var e = 23; // possible with var
 // let f = 23; // not possible with let      
 
 // Scope (global,block,functional)
@@ -85,5 +85,68 @@ false || false // false
 
 // condition ? true : false
 
+/*
+function getGrade(score){
+    if (score >=90 && score <=100){
+        return "B";
+ }
+    else if(score >=80 && score <=89){
+        return "B"; 
+    }
+    else if(score >=70 && score <=79){
+        return "C"; 
+    }
+    else if(score >=60 && score <=69){
+        return "D"; 
+    }
+    else {
+        return "Invalid Marks";
+    }
+}
+
+console.log(getGrade(78));
 
 
+*/
+
+/*
+function rps(user,comp){
+        if (user == "rock" && comp === "scissor") return "user";
+        if (user == "rock" && comp === "paper") return "computer";
+        if (user == "rock" && comp === "scissor") return "rock" ;
+}
+
+
+rps("rock","scisor")
+
+*/
+
+// Loops -> Reapeat krne ko loop khte h 
+// for / while / do-while / forin / foreach
+
+// 1 1 1 1 1 1 1 1 1
+// 1 2 3 4 5 6 7 8 9
+ 
+// kaha se jaana hai -> kaha tk jana hai -> kaise jaana hai
+//for
+// for(let a=1; a<=50; i+1){ 
+    // console.log(a);
+    
+// }
+
+// kaha se jaana hai -> kb rukna hai -> kaise jana hai
+// while
+
+
+// 1 -40 for
+// hello na aajaye - while 
+
+// bhallu miley jab jiske upar hirad baitha hai - while 
+
+
+
+// for loop 
+for(let i=1; i<100; i++){
+    console.log("hui hui");
+    
+}
