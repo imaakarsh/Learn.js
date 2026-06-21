@@ -63,7 +63,7 @@ console.log(x);
 */  
 
 // conditional statements
-
+/*
 true && true // true && and
 true && false // false
 false && true // false
@@ -74,5 +74,16 @@ false || true // true || or
 false || false // false
 !true // false
 !false // true
+*/
+
+//unary operator
+// ++ , -- , + , - , ! , typeof , void , delete
+
+
+//ternary operator
+// condition ? true : false
+
+// condition ? true : false
+
 
 
