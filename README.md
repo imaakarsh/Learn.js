@@ -1,10 +1,10 @@
 
-# 📚 JavaScript Fundamentals Playground  
+# 📚 JavaScript Fundamentals Playground
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/imaakarsh/Js) ![License](https://img.shields.io/github/license/imaakarsh/Js) ![Node.js version](https://img.shields.io/badge/node-%3E%3D14-brightgreen) ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
 **Live Demo**: — | **Issues**: [GitHub Issues](https://github.com/imaakarsh/Js/issues) | **Pull Requests**: [GitHub PRs](https://github.com/imaakarsh/Js/pulls)
-## 📝 Overview  
+## 📝 Overview
 
 `Js` is a curated collection of bite‑size JavaScript snippets that illustrate core language concepts—from variables and data types to advanced topics like prototypes, classes, and symbols. It is designed for:
 
@@ -12,7 +12,7 @@
 * **Instructors** looking for ready‑made examples for workshops or cohort sessions.  
 * **Anyone** who needs a quick reference while learning or teaching JavaScript.
 
-All examples are runnable with Node.js or directly in the browser, and are organized into logical folders like `BackToBasic.js`, `Cohort`, and `JavaScriptEverything` for easy navigation.
+All examples are runnable with Node.js or directly in the browser, and are organized into logical folders like `BackToBasic.js`, `Cohort`, `JavaScript`, and `JavaScriptEverything` for easy navigation.
 
 ---
 ## ✨ Features  
