@@ -1,6 +1,6 @@
-// var let const - line by line 
+// var let const - line by line
 
-// var a                   var use nhi krna 
+// var a                   var use nhi krna
 // var a = 2;
 // let a;
 // let a=23
@@ -19,32 +19,28 @@
 // app fhirse decelar kr skte ho error nhi aayega
 
 // var e  = 13;
-// let f = 13; 
+// let f = 13;
 // var e = 23; // possible with var
-// let f = 23; // not possible with let      
+// let f = 23; // not possible with let
 
 // Scope (global,block,functional)
 // reassignemet , redeclaration (possible with var)
 
-
-
-// Arithmetic operators 
+// Arithmetic operators
 // + - * / % **
 
 // comparison operators
 // = , += , -= , *= , /= , %= , **= , > , < , >= , <=
 // === strict check
 
-
-12 !=13 // true
-// hasan != "hasan" // true 
+12 != 13; // true
+// hasan != "hasan" // true
 
 // logical operators
 // && , || , !
 // && and
 // || or
 // ! not
-
 
 /*
 let x = 10;
@@ -60,7 +56,7 @@ x%=10;
 console.log(x);
 x**=10;
 console.log(x);
-*/  
+*/
 
 // conditional statements
 /*
@@ -78,7 +74,6 @@ false || false // false
 
 //unary operator
 // ++ , -- , + , - , ! , typeof , void , delete
-
 
 //ternary operator
 // condition ? true : false
@@ -121,47 +116,44 @@ rps("rock","scisor")
 
 */
 
-// Loops -> Reapeat krne ko loop khte h 
+// Loops -> Reapeat krne ko loop khte h
 // for / while / do-while / forin / foreach
 
 // 1 1 1 1 1 1 1 1 1
 // 1 2 3 4 5 6 7 8 9
- 
+
 // kaha se jaana hai -> kaha tk jana hai -> kaise jaana hai
 //for
-// for(let a=1; a<=50; i+1){ 
-    // console.log(a);
-    
+// for(let a=1; a<=50; i+1){
+// console.log(a);
+
 // }
 
 // kaha se jaana hai -> kb rukna hai -> kaise jana hai
 // while
 
-
 // 1 -40 for
-// hello na aajaye - while 
+// hello na aajaye - while
 
-// bhallu miley jab jiske upar hirad baitha hai - while 
+// bhallu miley jab jiske upar hirad baitha hai - while
 
-
-
-// for loop 
+// for loop
 // for(let i=1; i<100; i++){
 //     console.log("hui hui");
-    
+
 // }
 
-// while loop 
+// while loop
 // let i = 0;
 // while(i<=100){
 //     console.log("hehehe");
 //     i++;
 // }
 
-// q1 
+// q1
 // for(i=1;i<=10;i++){
 //     console.log(i);
-    
+
 // }
 
 // q2
@@ -170,7 +162,6 @@ rps("rock","scisor")
 //         console.log(i);
 //     }
 // }
-
 
 // q3
 // let str = "hello";
@@ -181,4 +172,66 @@ rps("rock","scisor")
 // }
 
 // console.log(rev); // olleh
+
+// q4
+// let i = 1;
+// while (i <= 15) {
+//   if (i % 2 != 0) {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+// q5
+
+// for (i = 1; i <= 10; i++) {
+//   console.log(5 * i);
+// }
+
+// q6
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+
+// q7
+
+// for(i=1;i<=50;i++){
+//     if(i%3==0){
+//         console.log(i);
+
+//     }
+// }
+
+// q8
+
+// let val = prompt("Give a number");
+// for (let i = 1; i < +val; i++) {
+//   if (i % 2 === 0) {
+//     console.log(`${i} is even`);
+//   } else {
+//     console.log(`${i} is odd`);
+//   }
+// }
+
+
+
+// for (i = 1; i <= 101; i++) {
+//   console.log(i);
+
+//   if (i % 7 === 0) {
+//     break;
+//   }
+// }
+
+
+// 1 2 4 5 7 8 10 11.... (no 3 6 9....)
+
+// for (i = 1; i <= 100; i++) {
+//     if (i % 3 === 0) continue;
+//     console.log(i);
+
+// }
+
 
