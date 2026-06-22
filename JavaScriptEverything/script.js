@@ -146,7 +146,39 @@ rps("rock","scisor")
 
 
 // for loop 
-for(let i=1; i<100; i++){
-    console.log("hui hui");
+// for(let i=1; i<100; i++){
+//     console.log("hui hui");
     
-}
+// }
+
+// while loop 
+// let i = 0;
+// while(i<=100){
+//     console.log("hehehe");
+//     i++;
+// }
+
+// q1 
+// for(i=1;i<=10;i++){
+//     console.log(i);
+    
+// }
+
+// q2
+// for(i=1; i<=20; i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+
+
+// q3
+// let str = "hello";
+// let rev = "";
+
+// for (let i = str.length - 1; i >= 0; i--) {
+//     rev += str[i];
+// }
+
+// console.log(rev); // olleh
+
