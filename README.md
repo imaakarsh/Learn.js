@@ -104,19 +104,22 @@ npm -v    # should print a version >=6
 
 ---
 
-## 🚀 Usage  
+## 🚀 Usage
 
-### Running a single example  
+### Running a single example
 
 To run a script using Node.js:
 
 bash
-node "Namaste JavaScript/index.js"
+node JavaScriptEverything/script.js
 
 
 To view browser-based examples, open the HTML file in your browser:
 
 bash
+# Open index.html in your default browser
+open JavaScriptEverything/index.html
+
 # On macOS
 open "Namaste JavaScript/index.html"
 
@@ -151,14 +154,13 @@ node BackToBasic.js/06_NumbsAndMaths.js
 
 ```bash
 # Bash loop – prints a header before each file
+
+bash
 for f in $(git ls-files '*.js' | grep -v 'node_modules'); do
   echo "=== $f ==="
   node "$f"
   echo
 done
-```
-
----
 
 # Example: Numbers & Math utilities
 node BackToBasic.js/06_NumbsAndMaths.js
@@ -186,14 +188,13 @@ node BackToBasic.js/06_NumbsAndMaths.js
 
 ```bash
 # Bash loop – prints a header before each file
+
+bash
 for f in $(git ls-files '*.js' | grep -v 'node_modules'); do
   echo "=== $f ==="
   node "$f"
   echo
 done
-```
-
----
 
 ## Development  
 
