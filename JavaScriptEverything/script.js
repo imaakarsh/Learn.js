@@ -215,8 +215,6 @@ rps("rock","scisor")
 //   }
 // }
 
-
-
 // for (i = 1; i <= 101; i++) {
 //   console.log(i);
 
@@ -224,7 +222,6 @@ rps("rock","scisor")
 //     break;
 //   }
 // }
-
 
 // 1 2 4 5 7 8 10 11.... (no 3 6 9....)
 
@@ -234,4 +231,39 @@ rps("rock","scisor")
 
 // }
 
+// FUNCTION
+
+// function declaration
+// function hello() {
+//   console.log("dance");
+// }
+// hello();
+// hello();
+
+// // Function Expration
+// let val = function () {
+//   console.log("HelloFunction");
+// };
+
+// val()
+
+// arrow function
+
+// let abc = () => {
+//     console.log("hello");
+
+// };
+// abc();
+
+// function add(v1, v2) {
+//   console.log(v1 + v2);
+// }
+// add(1, 2);
+
+// jab arrugemtn kai sare ho to humai utne hi paremets banane padhega , ise bachne k liye hm rest ka use krte hai (...) agr ... function ke paramerts space m lge to wo rest operators hai
+
+function abcd(...val) {
+  console.log(val);
+}
+abcd(1, 2, 3, 4, 5);
 
