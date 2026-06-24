@@ -262,8 +262,89 @@ rps("rock","scisor")
 
 // jab arrugemtn kai sare ho to humai utne hi paremets banane padhega , ise bachne k liye hm rest ka use krte hai (...) agr ... function ke paramerts space m lge to wo rest operators hai
 
-function abcd(...val) {
-  console.log(val);
-}
-abcd(1, 2, 3, 4, 5);
+// function abcd(...val) {
+//   console.log(val);
+// }
+// abcd(1, 2, 3, 4, 5);
+
+//return  matlab jaha se aaye ho whi dall dennde
+
+// first class fncs ->
+
+// closure -> ek fnc jo returm lare ek aur func aur return hone wala func hmesha use  krega parent fnc ka koi varialbe
+
+// function abcd() {
+//   let a = 12;
+//   return function () {
+//     console.log(a);
+//   };
+// }
+
+// function abcd() {
+//   let a = 12;
+//   function defg() {
+//     let b = 13;
+//     function ghij() {
+//       let c = 14;
+//     }
+//   }
+// }
+
+// IIFE
+// (function () {
+//   console.log("call ho chuka h");
+// })();
+
+// q1 what is the diff b/w function dec and expression in term of hosting?
+// abcd();
+
+// function abcd() {}
+
+// convert  function into arrow function
+
+// function mul(a,b){
+//     return a * b;
+// }
+
+// let mul = (a,b) => {
+//     return a*b;
+// }
+
+// use rest parameters to accept any number of scores and return the total
+
+// function getScore(...scores) {
+//   let total = 0;
+//   scores.forEach(function (val) {
+//     total = total + val;
+//   });
+//   return total;
+// }
+
+// console.log(getScore(10, 12, 14, 18));
+
+// Ques - pass a function into another funcrtion and execute it isnside
+
+// function abc(val) {
+//   val();
+// }
+// abc(function () {
+//   console.log("hey");
+// });
+
+// Question
+// (function () {
+//   console.log("Initialized");
+// })();
+
+// function counter() {
+//   let count = 0;
+//   return function () {
+//     count++;
+//     return count;
+//   };
+// }
+
+// let c = counter();
+// console.log(c());
+
 
