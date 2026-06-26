@@ -347,4 +347,12 @@ rps("rock","scisor")
 // let c = counter();
 // console.log(c());
 
+// let arr = [10, 20, 30, 40];
+// let eve = arr.every(function (val) {
+//   return val > 15;
+// });
+
+// let fruits = ["apple", "mango", "banana"];
+// console.log([fruits[1]]);
+
 
