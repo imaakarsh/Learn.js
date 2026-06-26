@@ -86,7 +86,21 @@ Js/
 
 ### Installation  
 
-```bash
+bash
+# Clone the repository (if you haven't already)
+git clone https://github.com/imaakarsh/Js.git
+cd Js
+
+# Open the Part 2 JS demo in your browser
+# macOS
+open "Part 2 JS/index.html"
+# Windows
+start "" "Part 2 JS\\index.html"
+# Linux (or any OS) you can also use a live‑server extension or any HTTP server
+
+
+> The new **Part 2 JS** folder contains a simple HTML page (`index.html`) and a script (`script.js`) that demonstrate basic DOM manipulation, styling, and event handling.
+
 # 1️⃣ Clone the repository
 git clone https://github.com/imaakarsh/Js.git
 cd Js
