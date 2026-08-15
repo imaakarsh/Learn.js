@@ -73,18 +73,18 @@ Js/
 
 ---
 
-## Getting Started  
+## 🚀 Getting Started
 
-### Prerequisites  
+### Prerequisites
 
 | Tool | Minimum Version |
 |------|-----------------|
 | **Git** | 2.20+ |
 | **Node.js** | 14.x (LTS) |
 | **npm** (bundled with Node) | 6.x+ |
-| **VS Code** (optional) | 1.70+ (for DevContainer) |
+| **VS Code** (optional) | 1.70+ (for DevContainer) |
 
-### Installation  
+### Installation
 
 bash
 # Clone the repository (if you haven't already)
