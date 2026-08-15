@@ -18,11 +18,11 @@ All examples are runnable with Node.js or directly in the browser, and are organ
 ## ✨ Features  
 
 | Category | Files | Description | Status |
-|----------|-------|-------------|--------|
-| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js`, `Cohort/01-console.js`, `JavaScriptEverything/script.js` | Simple console output, environment tests, and basic function definitions. | ✅ Stable |
-| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js`, `datatypes_symry.js`, `JavaScript/01_Variables.js`, `02_DataTypes.js`, `JavaScriptEverything/script.js` | Declaration, scope (global, block, functional), strict mode, and primitive vs reference types. | ✅ Stable |
-| **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js`, `JavaScriptEverything/script.js` | Arithmetic operators, negative values, assignment operators, and type conversion logic. | ✅ Stable |
-| **Comparisons & Logic** | `BackToBasic.js/04_Comprision.js`, `Cohort/06-conditional.js`, `JavaScriptEverything/script.js` | Equality (`==`, `===`), relational operators, logical operators (`&&`, `||`, `!`), and conditional flow control. | ✅ Stable |
+|---|---|---|---|
+| **Basics** | `JavaScript/test.js`, `BackToBasic.js/hello.js`, `Cohort/01-console.js` | Simple console output, environment tests, and basic function definitions. | ✅ Stable |
+| **Variables & Types** | `BackToBasic.js/01_Varialble.js`, `02_datatypes.js`, `datatypes_symry.js`, `JavaScript/01_Variables.js`, `02_DataTypes.js` | Declaration, scope (global, block, functional), strict mode, and primitive vs reference types. | ✅ Stable |
+| **Conversions & Operations** | `BackToBasic.js/03_ConversionOperation.js` | Arithmetic operators, negative values, assignment operators, and type conversion logic. | ✅ Stable |
+| **Comparisons & Logic** | `BackToBasic.js/04_Comprision.js`, `Cohort/06-conditional.js` | Equality (`==`, `===`), relational operators, logical operators (`&&`, `||`, `!`), and conditional flow control. | ✅ Stable |
 | **Strings** | `BackToBasic.js/05_Strings.js`, `Cohort/05-Strings.js` | Template literals, string methods, and Unicode handling. | ✅ Stable |
 | **Numbers & Math** | `BackToBasic.js/06_NumbsAndMaths.js`, `Cohort/04-number.js` | `Number` object, locale formatting, and numeric utilities. | ✅ Stable |
 | **Dates & Time** | `BackToBasic.js/07_Dates.js` | Date object manipulation and formatting. | ✅ Stable |
@@ -32,7 +32,7 @@ All examples are runnable with Node.js or directly in the browser, and are organ
 | **Classes & Inheritance** | `Cohort/15-Classes.js` | ES6 class syntax, constructors, and inheritance. | ✅ Stable |
 | **Symbols** | `Cohort/16-symbol.js` | Unique identifiers and well‑known symbols. | ✅ Stable |
 | **Cohort Index** | `Cohort/index.js` | Small demo of variable declarations. | ✅ Stable |
-| **Web Integration** | `JavaScriptEverything/index.html`, `JavaScriptEverything/style.css` | Basic HTML and CSS structure for executing and styling JavaScript in a browser environment. | ✅ Stable |
+| **DOM & Web Integration** | `Part 1 Js/index.html`, `Part 1 Js/script.js`, `Part 2 JS/index.html`, `Part 2 JS/script.js` | DOM manipulation, selecting elements, modifying text/HTML, dynamic CSS styling, attribute manipulation, and class list operations. | ✅ Stable |
 ## Tech Stack  
 
 | Layer | Technology | Reason |
@@ -125,12 +125,18 @@ npm -v    # should print a version >=6
 To run a script using Node.js:
 
 bash
-node JavaScriptEverything/script.js
+node BackToBasic.js/01_Varialble.js
 
 
 To view browser-based examples, open the HTML file in your browser:
 
 bash
+# Open Part 1
+open "Part 1 Js/index.html"
+
+# Open Part 2 (DOM Manipulation)
+open "Part 2 JS/index.html"
+
 # Open index.html in your default browser
 open JavaScriptEverything/index.html
 
@@ -143,30 +149,28 @@ start "Namaste JavaScript/index.html"
 
 ---
 # Example: Numbers & Math utilities
+
+bash
 node BackToBasic.js/06_NumbsAndMaths.js
-```
+
 
 **Expected output**
 
-```
+
 400
 [Number: 100]
 3
 10,000
-```
+
 
 ### Quick reference for the most popular snippets  
 
 | Command | What you’ll see |
 |---------|-----------------|
-| `node 01_basic/test.js` | Simple `console.log('Hello World')` |
+| `node JavaScript/test.js` | Simple console environment test |
 | `node BackToBasic.js/05_Strings.js` | String concatenation, template literals, length, etc. |
 | `node Cohort/15-Classes.js` | Class definition, inheritance, method overriding |
 | `node Cohort/12-call-bind-apply.js` | Demonstrates `call`, `apply`, `bind` usage |
-
-### Running all examples automatically (optional)  
-
-```bash
 # Bash loop – prints a header before each file
 
 bash
@@ -177,30 +181,28 @@ for f in $(git ls-files '*.js' | grep -v 'node_modules'); do
 done
 
 # Example: Numbers & Math utilities
+
+bash
 node BackToBasic.js/06_NumbsAndMaths.js
-```
+
 
 **Expected output**
 
-```
+
 400
 [Number: 100]
 3
 10,000
-```
+
 
 ### Quick reference for the most popular snippets  
 
 | Command | What you’ll see |
 |---------|-----------------|
-| `node 01_basic/test.js` | Simple `console.log('Hello World')` |
+| `node JavaScript/test.js` | Simple console environment test |
 | `node BackToBasic.js/05_Strings.js` | String concatenation, template literals, length, etc. |
 | `node Cohort/15-Classes.js` | Class definition, inheritance, method overriding |
 | `node Cohort/12-call-bind-apply.js` | Demonstrates `call`, `apply`, `bind` usage |
-
-### Running all examples automatically (optional)  
-
-```bash
 # Bash loop – prints a header before each file
 
 bash
