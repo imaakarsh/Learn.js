@@ -12,7 +12,7 @@
 * **Instructors** looking for ready‑made examples for workshops or cohort sessions.  
 * **Anyone** who needs a quick reference while learning or teaching JavaScript.
 
-All examples are runnable with Node.js or directly in the browser, and are organized into logical folders like `BackToBasic.js`, `Cohort`, `JavaScript`, and `JavaScriptEverything` for easy navigation.
+All examples are runnable with Node.js or directly in the browser, and are organized into logical folders like `BackToBasic.js`, `Cohort`, `JavaScript`, `Part 1 Js`, and `Part 2 JS` for easy navigation.
 
 ---
 ## ✨ Features  
